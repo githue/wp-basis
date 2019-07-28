@@ -1,0 +1,35 @@
+/**
+ * Theme Name: Basis
+ * Theme URI: https://github.com/githue/wp-basis
+ * Author: githue
+ * Author URI: https://github.com/githue
+ * Description: Plain WordPress theme for developing things.
+ * Version: 1.0
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ * Tags: development
+ * Text Domain: basis
+*/
+
+html {
+    font: normal 16px/1.5 sans-serif;
+}
+
+/**
+ * XDebug - make errors more readable.
+ */
+
+font[size="1"] {
+    font-size: inherit;
+}
+
+/* END XDebug */
+
+.screen-reader-text {
+    color: transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
